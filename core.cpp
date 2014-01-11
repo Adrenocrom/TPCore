@@ -456,9 +456,9 @@ _program CORE::extractProgram()
 				fInSeq[i] = 1.0f;
 			else
 				fInSeq[i] = 0.0f;
-			printf("%.0f", fInSeq[i]);
+			//printf("%.0f", fInSeq[i]);
 		}
-		printf("\n");
+		//printf("\n");
 
 		fOuSeq = makeClean(m_pCore->calcOutput(fInSeq));
 		for(int o = 0; o < m_iNumOutputNeurons; ++o) {
